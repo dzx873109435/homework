@@ -2,10 +2,10 @@ int max(int *a,int n)
 {
   int m,j;
   m=a[0];
-  for(i=0;i<n;i++)
+  for(j=0;j<n;j++)
   {
-    if(a[i]>m)
-    m=a[i];
+    if(a[j]>m)
+    m=a[j];
   }
   return m;
 }
